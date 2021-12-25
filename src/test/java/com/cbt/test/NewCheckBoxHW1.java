@@ -66,7 +66,7 @@ public class NewCheckBoxHW1 {
 
         System.out.println("names :" + names);
         System.out.println("Deleted name is :" + deletedNames);
-        
+
         Assert.assertFalse(names.contains(deletedNames), "Row doesn't deleted");
 
         driver.quit();
